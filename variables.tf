@@ -7,4 +7,5 @@ variable "secret_key" {
 }
 variable "region" {
   description = "Region of AWS VPC"
+  default = "eu-west-2"
 }
